@@ -143,7 +143,7 @@ table {
 /* @media only screen and (max-width: 375px) {...} */
 :root {
     --white: #eeeeee;
-    --lightgrey: #e6e4e4;
+    --lightgrey: #e1e1e1;
     --grey: #939292;
     --lightblack: #575656;
     --darkblack: #2f2f2f;
@@ -252,7 +252,7 @@ border: none;
 .footer{
     background-color: var(--lightblack);
     color:var(--lightgrey);
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
     text-align: center;
     width: 100%;
     left: 0;
@@ -302,6 +302,12 @@ text-align: left;
 }
 .contact-spacing{
     padding-top:1em;
+}
+
+.address-listing{
+    color: var(--darkteal);
+    text-decoration: none;
+    list-style: none;
 }
 
 /* gallery styling */

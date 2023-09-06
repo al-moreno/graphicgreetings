@@ -5,7 +5,7 @@
    License: none (public domain)
 */
 
-html,
+/* html,
 body,
 div,
 span,
@@ -85,7 +85,8 @@ summary,
 time,
 mark,
 audio,
-video {
+video { */
+    * {
     margin: 0;
     padding: 0;
     border: 0;
@@ -173,10 +174,15 @@ h2 {
     font-size: 2rem;
     /* 2 times the body text */
 }
+h3 {
+    font-size: 1.4rem;
+
+}
 
 p {
     font-size: 1rem;
 }
+
 
 .container-1, .usa{
     background-color: var(--lightgrey);
@@ -186,9 +192,11 @@ p {
     background-color: var(--lightteal);
 
 }
+
 header > section > nav > div > a > img{
     width: 5em; 
 }
+
 /* index styling */
 .main{
     padding-bottom: 1.5em;
@@ -338,23 +346,34 @@ div > a{
 .line-space{
     line-height: 1em;
 }
+
+
+/* privacy styling */
+.ul-privacy{
+    padding-left: 1em;
+    list-style:circle;
+}
+
+
 /* media queries */
 
 /* XX-Small devices (375px and up) */
- @media only screen and (min-width: 375px) {...} 
+ /* @media only screen and (min-width: 375px) {...}  */
 
 /* X-Small devices (576px and up) */
-@media only screen and (min-width: 576px) {...} 
+/* @media only screen and (min-width: 576px) {...}  */
 
 /* Small devices ( 768px and up) */
-@media only screen and (min-width: 768px) {...}
+/* @media only screen and (min-width: 768px) {
+ 
+} */
 
 /* Medium devices ( 992px and up) */
-@media only screen and (min-width: 992px) {...}
+/* @media only screen and (min-width: 992px) {...} */
 
 /* Large devices (1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+/* @media only screen and (min-width: 1200px) {...} */
 
 /* Extra large devices (1400px and up) */
-@media only screen and (min-width: 1400px) {...}
+/* @media only screen and (min-width: 1400px) {...} */
 

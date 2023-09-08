@@ -206,7 +206,7 @@ header>section>nav>div>a>img {
     max-width: 6em;
 }
 
-.z-index{
+.z-index {
     position: fixed;
     z-index: 4;
     background-color: var(--lightgrey);
@@ -228,6 +228,10 @@ header>section>nav>div>a>img {
 .welcome-title,
 .welcome-text {
     padding-bottom: .8em;
+}
+
+.banner {
+    padding-top: 4rem;
 }
 
 section.index-welcome.container-2>div>div:nth-child(2)>div>div>img {
@@ -372,12 +376,21 @@ div>a {
     text-decoration: none;
 }
 
+.gallery-img {
+    height: 13rem;
+}
+
+.gallery-text-title {
+    font-size: 1em;
+}
+
 /* birthdays, baby, engagements, graduations, holidays, otherEvents, schools, sports, weddings, welcomeHome styling */
 .display-card {
     border-radius: 0.5em;
     margin: .5em;
     border: 7px solid #fff;
     box-shadow: 5px 5px 7px 2px var(--grey);
+
 }
 
 .line-space {
@@ -389,6 +402,21 @@ div>a {
 .ul-privacy {
     padding-left: 1em;
     list-style: circle;
+}
+
+
+.zoom:hover {
+    /* justify-content: center; */
+    transform: scale(2);
+    z-index: 1;
+    display: block;
+    /* margin: auto; */
+    position: fixed;
+    top: 32%;
+    left: 30%;
+
+
+
 }
 
 

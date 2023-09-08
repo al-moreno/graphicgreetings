@@ -1,3 +1,4 @@
+// Booking form submistion
 document.getElementById("contact-form").addEventListener("submit", function(e) {
     e.preventDefault(); // stop submission
     const html = [...this.elements]

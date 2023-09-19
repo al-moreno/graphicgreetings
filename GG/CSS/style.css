@@ -182,12 +182,18 @@ h3 {
     font-size: 1.4rem;
 
 }
+h4{
+    font-size: 1rem;
+    padding-bottom: 1.5em;
+}
 
 p {
     font-size: 1rem;
 }
 
-
+.nav-link{
+    font-size: 1.8vh;
+}
 .container-1,
 .usa {
     background-color: var(--lightgrey);
@@ -209,7 +215,7 @@ header>section>nav>div>a>img {
 .z-index {
     position: fixed;
     z-index: 4;
-    background-color: var(--lightgrey);
+    background-color: var(--lightteal);
     width: 100%;
     margin-bottom: 20px;
 }
@@ -233,6 +239,7 @@ header>section>nav>div>a>img {
 .banner {
     padding-top: 4rem;
 }
+
 
 section.index-welcome.container-2>div>div:nth-child(2)>div>div>img {
     border-radius: 0.5em;
@@ -423,21 +430,45 @@ div>a {
 /* media queries */
 
 /* XX-Small devices (375px and up) */
-/* @media only screen and (min-width: 375px) {...}  */
+@media only screen and (min-width: 375px) {
+  
+    
+
+}  
 
 /* X-Small devices (576px and up) */
 /* @media only screen and (min-width: 576px) {...}  */
 
 /* Small devices ( 768px and up) */
-/* @media only screen and (min-width: 768px) {
- 
-} */
+@media only screen and (min-width: 768px) {
+ .carousel-item > img {
+    object-fit: cover;
+    object-position: center;
+    height: 75vh;
+    overflow: hidden;
+  }
+} 
 
 /* Medium devices ( 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
+@media only screen and (min-width: 992px) {
+    .carousel-item > img {
+        object-fit: cover;
+        object-position: center;
+        height: 85vh;
+        overflow: hidden;
+      }
+}
 
 /* Large devices (1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
+@media only screen and (min-width: 1200px) {
+    .carousel-item > img {
+        object-fit: cover;
+        object-position: center;
+        height: 90vh;
+        overflow: hidden;
+      }
+
+} 
 
 /* Extra large devices (1400px and up) */
 /* @media only screen and (min-width: 1400px) {...} */

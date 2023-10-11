@@ -9,7 +9,7 @@
     <meta name="author" content="Ana L Moreno" />
     <title>Gallery | Graphic Greetings, LLC.</title>
     <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" />
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon_io/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <link rel="canonical" href="https://www.graphicgreetings.org/gallery" />
     <meta property="og:site_name" content="Graphic Greetings, LLC" />
     <meta property="og:url" content="https://www.graphicgreetings.org" />
@@ -22,7 +22,6 @@
     <meta name="twitter:title" content="Gallery | Graphic Greetings, LLC" />
     <meta name="twitter:url" content="https://www.graphicgreetings.org/gallery" />
     <meta name="robots" content="follow, index">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- animation of font -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -33,6 +32,11 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&ampfamily=Montserrat:wght@100;300;400;800&ampdisplay=swap"
+            rel="stylesheet">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D849LVNB1N">
     </script>
     <script>
@@ -42,87 +46,91 @@
 
         gtag('config', 'G-D849LVNB1N');
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:wght@100;300;400;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+       href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&ampfamily=Montserrat:wght@100;300;400;800&ampdisplay=swap"
+       rel="stylesheet">
+        
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- header section-->
     <header class="z-index">
-
-        <section class="navbar mx-4">
-
-           
-
+        <section class="navbar mx-4 ">
+            <!-- navigation bar -->
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                          </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about.html">ABOUT</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="faq.html">FAQ | CONTACT US</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="book.html">BOOK YOUR EVENT</a>
-                      </li>
-                    </ul>
-                  
-                  </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="gallery.html">GALLERY</a>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="faq.html">FAQ | CONTACT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="book.html">BOOK YOUR EVENT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="about.html">ABOUT US</a>
+
+                        </ul>
+
+                    </div>
                 </div>
-              </nav>
+            </nav>
             <a href="index.html" class="">
-                <img class="pr-5 nav-logo " style="max-width: 6em;" src="./images/Logo.png" alt="Graphic Greetings Logo"
-                    style="display:block" fetchpriority="high" loading="eager" decoding="async"
-                    data-loader="raw">
+                <img class="pr-5 nav-logo  logo-img" src="assets/images/Logo.png" alt="Graphic Greetings Logo"
+                    style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
             </a>
         </section>
-
     </header>
 
     <!-- main section  -->
     <main>
-
+       
 
         <!-- cards -->
-        <section class="card-sections container-2 p-5">
+        <section class="card-sections container-1 p-5">
             <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-5">GALLERY</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
 
+            <h2 class="h1-responsive font-weight-bold text-center my-5 line-space pt-4">GALLERY</h2>
+            <h4 class="text-center">Click on the image that best aligns with your event to see some of our previous
+                work.</h4>
+            <div class="row row-cols-1 row-cols-md-3 g-5">
 
                 <!-- birthdays -->
                 <div class="col">
                     <a href="birthdays.html">
-                        <div class="card gallery-card">
-                            <img src="./images/CustomGirlyBirthday.jpg" class="card-img-top gallery-img" alt="...">
+                        <div class="card p-3 shadow-lg">
+                            <img src="assets/images/CustomGirlyBirthday.jpg" class="card-img-top gallery-img-size"
+                                alt="Pink birthday yard card">
                             <div class="card-body">
-                                <h5 class="card-title text-center gallery-text-title">BIRTHDAYS</h5>
+                                <p class="card-text text-center">Birthdays</p>
                             </div>
                         </div>
                     </a>
                 </div>
 
-
                 <!-- graduations -->
                 <div class="col">
                     <a href="graduations.html">
-                        <div class="card gallery-card">
-                            <img src="./images/GraduationSACS.jpg" class="card-img-top gallery-img" alt="...">
+                        <div class="card p-3 shadow-lg">
+                            <img src="assets/images/SACS_Grad.jpg" class="card-img-top"
+                                alt="Sacs graduations yard card">
                             <div class="card-body">
-                                <h5 class="card-title text-center gallery-text-title">GRADUATIONS</h5>
-
+                                <p class="card-text text-center">Graduations</p>
                             </div>
                         </div>
                     </a>
@@ -131,10 +139,11 @@
                 <!-- schools -->
                 <div class="col">
                     <a href="schools.html">
-                        <div class="card gallery-card">
-                            <img src="./images/BackToSchoolSACS.jpg" class="card-img-top gallery-img" alt="...">
+                        <div class="card p-3 shadow-lg">
+                            <img src="assets/images/BackToSchoolSACS.jpg" class="card-img-top"
+                                alt="Back to school Yard Card">
                             <div class="card-body">
-                                <h5 class="card-title text-center gallery-text-title">SCHOOL EVENTS</h5>
+                                <p class="card-text text-center">School Events</p>
                             </div>
                         </div>
                     </a>
@@ -143,24 +152,22 @@
                 <!-- baby showers  -->
                 <div class="col">
                     <a href="baby.html">
-                        <div class="card gallery-card">
-                            <img src="./images/ItsABoyBlue.jpeg" class="card-img-top gallery-img" alt="...">
+                        <div class="card p-3 shadow-lg">
+                            <img src="assets/images/ItsABoyBlue.jpeg" class="card-img-top" alt="It's a boy Yard Card">
                             <div class="card-body">
-                                <h5 class="card-title text-center gallery-text-title">BABY SHOWERS &<br>BIRTH ANNOUNCEMENT</h5>
-
+                                <p class="card-text text-center">Baby Showers & Announcements</p>
                             </div>
                         </div>
                     </a>
                 </div>
 
-                <!-- engagements  -->
+                <!-- welcome home  -->
                 <div class="col">
                     <a href="welcomeHome.html">
-                        <div class="card gallery-card">
-                            <img src="./images/WelcomeHome.jpg" class="card-img-top gallery-img" alt="...">
+                        <div class="card p-3 shadow-lg">
+                            <img src="assets/images/WelcomeHome.jpg" class="card-img-top" alt="welcome home Yard Card">
                             <div class="card-body">
-                                <h5 class="card-title text-center gallery-text-title">GRAND OPENINGS &<br> WELCOME HOME</h5>
-
+                                <p class="card-text text-center">Welcome Home</p>
                             </div>
                         </div>
                     </a>
@@ -170,10 +177,10 @@
                 <!-- weddings -->
                 <div class="col">
                     <a href="weddings.html">
-                        <div class="card gallery-card">
-                            <img src="./images/JustMarried.jpg" class="card-img-top gallery-img" alt="...">
+                        <div class="card p-3 shadow-lg">
+                            <img src="assets/images/JustMarried.jpg" class="card-img-top" alt="wedding Yard Card">
                             <div class="card-body">
-                                <h5 class="card-title text-center gallery-text-title">WEDDING, ANNIVERSARIES & ENGAGEMENTS</h5>
+                                <p class="card-text text-center">Wedding & Anniversaries</p>
                             </div>
                         </div>
                     </a>
@@ -184,10 +191,10 @@
                 <!-- sports events -->
                 <div class="col">
                     <a href="sports.html">
-                        <div class="card gallery-card">
-                            <img src="./images/Play_ball.jpg" class="card-img-top gallery-img" alt="...">
+                        <div class="card p-3 shadow-lg">
+                            <img src="assets/images/Play_ball.jpg" class="card-img-top" alt="Play Ball Yard Card">
                             <div class="card-body">
-                                <h5 class="card-title text-center gallery-text-title">SPORTS EVENTS</h5>
+                                <p class="card-text text-center">Sports</p>
                             </div>
                         </div>
                     </a>
@@ -196,10 +203,10 @@
                 <!-- holidays -->
                 <div class="col">
                     <a href="holidays.html">
-                        <div class="card gallery-card">
-                            <img src="./images/MyDadMyHero.JPG" class="card-img-top gallery-img" alt="...">
+                        <div class="card p-3 shadow-lg">
+                            <img src="assets/images/July4th.jpg" class="card-img-top" alt="Holiday Yard Card">
                             <div class="card-body">
-                                <h5 class="card-title text-center gallery-text-title">HOLIDAY EVENTS</h5>
+                                <p class="card-text text-center">Holidays</p>
                             </div>
                         </div>
                     </a>
@@ -208,14 +215,15 @@
                 <!-- all other events -->
                 <div class="col">
                     <a href="otherEvents.html">
-                        <div class="card gallery-card">
-                            <img src="./images/NeverForget.jpeg" class="card-img-top gallery-img" alt="...">
+                        <div class="card p-3 shadow-lg">
+                            <img src="assets/images/NeverForget.jpeg" class="card-img-top" alt="Never Forget Yard Card">
                             <div class="card-body">
-                                <h5 class="card-title text-center gallery-text-title">OTHER EVENTS</h5>
+                                <p class="card-text text-center">Other Events</p>
                             </div>
                         </div>
                     </a>
                 </div>
+
             </div>
 
         </section>
@@ -223,58 +231,28 @@
 
     <!-- footer section  -->
     <footer class="text-center text-white footer">
-        <!-- collage of pictures -->
-        <div class="footer-collage">
+        <div class="footer footer-text">
+            Created By <a href="https://github.com/al-moreno">Ana Moreno</a> | <span class="far fa-copyright"></span>
+            2022 All rights
+            reserved | <a href="privacy.html">Privacy Policy</a>
 
+            <a class="btn btn-link btn-floating btn-lg text-white m-1"
+                href="https://www.linkedin.com/company/graphic-greetings-llc" role="button"
+                data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
 
-        </div>
-        <!-- Grid container -->
-        <div class="container">
-            <!-- Section: Social media -->
-            <section class="">
-                <!-- Facebook -->
-                <a class="btn btn-link btn-floating btn-lg text-white m-1"
-                    href="https://m.facebook.com/profile.php?id=100093007187165&locale2=hi_IN&_rdr" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-link btn-floating btn-lg text-white m-1"
+                href="https://www.instagram.com/graphic_greetings_llc" role="button" data-mdb-ripple-color="dark"><i
+                    class="fab fa-instagram"></i></a>
 
-                <!-- Twitter -->
-                <!-- <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
-                 data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a> -->
-
-                <!-- Google -->
-                <!-- <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
-                 data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a> -->
-
-                <!-- Instagram -->
-                <a class="btn btn-link btn-floating btn-lg text-white m-1"
-                    href="https://www.instagram.com/graphic_greetings_llc/" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
-
-                <!-- Linkedin -->
-                <a class="btn btn-link btn-floating btn-lg text-white m-1"
-                    href="https://www.linkedin.com/company/graphic-greetings-llc" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
-            </section>
-            <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-
-
-
-        <div class="footer footer-text text-center">
-            <span>Created By <a href="https://github.com/al-moreno">Ana Moreno</a> | <span
-                    class="far fa-copyright"></span> 2022 All rights
-                reserved | <a href="privacy.html">Privacy Policy</a></span>
+            <a class="btn btn-link btn-floating btn-lg text-white m-1"
+                href="https://m.facebook.com/profile.php?id=100093007187165&amplocale2=hi_IN&_rdr" role="button"
+                data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
         </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 </body>
 
 </html>

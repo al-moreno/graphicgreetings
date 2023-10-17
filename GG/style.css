@@ -382,7 +382,10 @@ section.index-welcome.container-2>div>div:nth-child(2)>div>div>img {
     font-family:'Luckiest Guy', Georgia, 'Times New Roman', Times, serif; 
   
 }
-
+.faq-question-font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-weight: bold;
+}
 .color-teal {
     background-color: #b4dedc;
     border-style: none;
@@ -491,7 +494,7 @@ div>a {
         border-radius: 0.5em;
         border: 7px solid #fff;
         box-shadow: 10px 10px 5px #939292;
-        max-width: 100%;
+        max-width: 75vw;
     }
 
     .footer {
@@ -545,6 +548,10 @@ div>a {
         object-position: center;
         height: 85vh;
         overflow: hidden;
+    }
+
+    .about-img {
+    max-width: 35vw;
     }
 
 
